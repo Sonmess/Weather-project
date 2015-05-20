@@ -1,0 +1,37 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bohac.matej.pocasieproject.fragments.WeatherInfoFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewInfoTitle"
+            android:text="@string/forecast"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:padding="10dp"
+        />
+
+        <view
+            android:layout_width="fill_parent"
+            android:layout_height="360dp"
+            class="android.support.v7.widget.RecyclerView"
+            android:id="@+id/forecastList"
+            android:padding="10dp"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+        />
+
+    </LinearLayout>
+
+</FrameLayout>

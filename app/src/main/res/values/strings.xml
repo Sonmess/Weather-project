@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">PocasieProject</string>
+    <!--    Main Activity    -->
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title">Project weather</string>
+    <string name="city">City :</string>
+    <string name="weather">Weather</string>
+    <string name="cityError">You must enter location!</string>
+    <string name="data">Weather data</string>
+    <string name="location">Location :</string>
+    <string name="country">Country :</string>
+    <string name="condition">Conditions :</string>
+    <string name="clouds">Clouds :</string>
+    <string name="temperature">Temperature :</string>
+    <string name="wind">Wind :</string>
+    <string name="imageDescription">Weather icon</string>
+    <string name="anderoid">Anderoid</string>
+
+    <!--    Weather info Activity   -->
+    <string name="forecast">Forecast data</string>
+    <string name="time">Time :</string>
+
+
+    <!--     About Activity     -->
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="aboutTitle">About</string>
+
+    <string name="nickname">Mess</string>
+
+    <!--    Fragment Info   -->
+    <string name="author">Matej Boháč</string>
+    <string name="skupina">5ZSA21</string>
+    <string name="email"><u>matej.bohac90@gmail.com</u></string>
+    <string name="mailto">mailto:matej.bohac90@gmail.com</string>
+    <string name="emailSubject">Email from weather application</string>
+
+    <!--    Fragment Detail     -->
+    <string name="detailInfo">
+        Hi, I am a student of information systems and webdeveloper in biggest slovak web company Azet.sk.
+        I like to learn new technologies and approaches to implement my own ideas.
+        In the mean time i am practising my guitar skills, musical theory and japan languauge.
+        Enjoy my app and feel free to contact me.
+    </string>
+
+    <string name="hobbies">Hobbies :</string>
+
+    <string-array name="hobbies_list">
+        <item>Listening to music</item>
+        <item>Playing on guitar</item>
+        <item>Playing games</item>
+        <item>Programming</item>
+        <item>Learning japan</item>
+        <item>Japan culture</item>
+        <item>Anime</item>
+        <item>Comics</item>
+    </string-array>
+
+    <string-array name="socials_list">
+        <item>Facebook</item>
+        <item>Last.fm</item>
+        <item>Google+</item>
+        <item>Youtube</item>
+        <item>Pokec</item>
+    </string-array>
+
+    <string-array name="socials_links">
+        <item>https://www.facebook.com/Messkun</item>
+        <item>http://www.last.fm/user/Bilbo_Turambar</item>
+        <item>http://www.google.com/+MatejBohac</item>
+        <item>https://www.youtube.com/user/Bilboslavus</item>
+        <item>http://pokec.azet.sk/Mess-kun</item>
+    </string-array>
+
+    <!--    Fragment Footer     -->
+    <string name="footerFRI"><u>Fakulta riadenia a informatiky</u></string>
+    <string name="footerUNIZA"><u>Žilinská univerzita</u></string>
+    <string name="footerPredmet">Vývoj aplikácií pre Android</string>
+
+</resources>

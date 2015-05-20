@@ -1,0 +1,58 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bohac.matej.pocasieproject.fragments.FooterFragment">
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="10dp">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/imageViewFRI"
+           android:padding="10dp"
+           android:layout_margin="20dp"
+           android:background="@drawable/logo_fri"/>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:layout_gravity="center">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/textViewFRI"
+               android:text="@string/footerFRI"
+               android:textSize="20sp"
+
+               android:padding="10dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/textViewUniza"
+               android:text="@string/footerUNIZA"
+               android:textSize="20sp"
+               android:padding="10dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/textViewPredmet"
+               android:text="@string/footerPredmet"
+               android:textSize="20sp"
+               android:padding="10dp"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,125 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bohac.matej.pocasieproject.fragments.WeatherDataFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewDataTitle"
+            android:text="@string/data"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:padding="10dp"
+        />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/imageViewIcon"
+                    android:padding="10dp"
+                    android:contentDescription="@string/imageDescription"
+                />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewTemperature"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewLocation"
+                    android:text="@string/location"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewCountry"
+                    android:text="@string/country"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewCondition"
+                    android:text="@string/condition"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewClouds"
+                    android:text="@string/clouds"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                />
+
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewWind"
+                    android:text="@string/wind"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

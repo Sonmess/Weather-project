@@ -1,0 +1,66 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bohac.matej.pocasieproject.fragments.AboutDetailFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewDetailText"
+                android:text="@string/detailInfo"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:padding="30dp"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewHobby"
+                    android:text="@string/hobbies"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:padding="20dp"
+                    />
+
+                <Spinner
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dropdown"
+                    android:id="@+id/spinnerHobby"
+                    android:padding="10dp">
+                </Spinner>
+
+                <ListView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listViewSocials"
+                    android:fadeScrollbars="false"
+                    android:scrollbarAlwaysDrawVerticalTrack="true">
+                </ListView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
